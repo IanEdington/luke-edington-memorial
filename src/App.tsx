@@ -7,7 +7,7 @@ import Gallery from './components/Gallery'
 import Music from './components/Music'
 import Community from './components/Community'
 import Footer from './components/Footer'
-import WaveDivider from './components/WaveDivider'
+import SectionWrapper from './components/SectionWrapper'
 
 function useFadeOnScroll() {
   useEffect(() => {
@@ -44,41 +44,29 @@ export default function App() {
       <Nav />
 
       <main>
-        {/* Hero */}
-        <Hero />
+        <SectionWrapper nextBg="#FFF8E1">
+          <Hero />
+        </SectionWrapper>
 
-        {/* Wave: dark bg → cream */}
-        <WaveDivider topColor="#1A0A2E" bottomColor="#FFF8E1" />
+        <SectionWrapper nextBg="#2D1B4E" flip>
+          <Obituary />
+        </SectionWrapper>
 
-        {/* Obituary */}
-        <Obituary />
+        <SectionWrapper nextBg="#1A0A2E">
+          <EventBanner />
+        </SectionWrapper>
 
-        {/* Wave: cream → event gradient start */}
-        <WaveDivider topColor="#FFF8E1" bottomColor="#2D1B4E" />
+        <SectionWrapper nextBg="#2D1B4E" flip>
+          <Gallery />
+        </SectionWrapper>
 
-        {/* Event Banner */}
-        <EventBanner />
+        <SectionWrapper nextBg="#FFF8E1">
+          <Music />
+        </SectionWrapper>
 
-        {/* Wave: event gradient end → dark bg */}
-        <WaveDivider topColor="#E65100" bottomColor="#1A0A2E" />
-
-        {/* Gallery */}
-        <Gallery />
-
-        {/* Wave: dark bg → deep purple */}
-        <WaveDivider topColor="#1A0A2E" bottomColor="#2D1B4E" />
-
-        {/* Music */}
-        <Music />
-
-        {/* Wave: deep purple → cream */}
-        <WaveDivider topColor="#2D1B4E" bottomColor="#FFF8E1" />
-
-        {/* Community */}
-        <Community />
-
-        {/* Wave: cream → dark bg */}
-        <WaveDivider topColor="#FFF8E1" bottomColor="#1A0A2E" />
+        <SectionWrapper nextBg="#1A0A2E" flip>
+          <Community />
+        </SectionWrapper>
       </main>
 
       <Footer />
