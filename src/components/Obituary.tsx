@@ -14,7 +14,7 @@ export default function Obituary() {
   return (
     <section
       id="obituary"
-      className="bg-[#FFF8E1] py-20 px-4"
+      className="bg-[#FFF8E1] pt-20 pb-32 px-4"
     >
       <div className="max-w-3xl mx-auto fade-section">
         <h2 className="font-display text-4xl sm:text-5xl font-bold text-[#2D1B4E] mb-10 text-center">

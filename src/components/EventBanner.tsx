@@ -2,9 +2,9 @@ export default function EventBanner() {
   return (
     <section
       id="event"
-      className="relative py-16 px-4 overflow-hidden"
+      className="relative pt-16 pb-32 px-4 overflow-hidden"
       style={{
-        background: 'linear-gradient(135deg, #2D1B4E 0%, #C2185B 50%, #E65100 100%)',
+        background: 'linear-gradient(to bottom, #2D1B4E 0%, #C2185B 55%, #E65100 85%, #1A0A2E 100%)',
       }}
     >
       {/* Decorative circles */}

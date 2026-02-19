@@ -1,6 +1,6 @@
 export default function Music() {
   return (
-    <section id="music" className="bg-[#2D1B4E] py-20 px-4">
+    <section id="music" className="bg-[#2D1B4E] pt-20 pb-32 px-4">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12 fade-section">
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-[#E991B0] mb-4">
@@ -15,7 +15,7 @@ export default function Music() {
           {/* YouTube */}
           <div className="flex flex-col gap-4">
             <h3 className="font-display text-2xl text-white font-semibold text-center">
-              Luke's Video
+              Luke's Original Music
             </h3>
             <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-2xl shadow-black/40">
               <iframe

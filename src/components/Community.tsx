@@ -1,6 +1,6 @@
 export default function Community() {
   return (
-    <section id="community" className="bg-[#FFF8E1] py-20 px-4">
+    <section id="community" className="bg-[#FFF8E1] pt-20 pb-32 px-4">
       <div className="max-w-3xl mx-auto text-center fade-section">
         <h2 className="font-display text-4xl sm:text-5xl font-bold text-[#2D1B4E] mb-4">
           Share a Memory

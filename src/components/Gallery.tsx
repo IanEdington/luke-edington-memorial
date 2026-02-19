@@ -19,7 +19,7 @@ export default function Gallery() {
   const next  = () => setLightboxIndex((i) => (i !== null ? (i + 1) % images.length : 0))
 
   return (
-    <section id="gallery" className="bg-[#1A0A2E] py-20 px-4">
+    <section id="gallery" className="bg-[#1A0A2E] pt-20 pb-32 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12 fade-section">
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-[#FFB300] mb-4">
