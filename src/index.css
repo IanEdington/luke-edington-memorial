@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Nunito:wght@300;400;600;700&family=Caveat:wght@400;600&display=swap');
+
+@import "tailwindcss";
+
+/* ── Custom CSS Variables ── */
+:root {
+  --dark-bg: #1A0A2E;
+  --deep-purple: #2D1B4E;
+  --magenta: #C2185B;
+  --electric-blue: #1E88E5;
+  --warm-orange: #E65100;
+  --teal: #00897B;
+  --gold: #FFB300;
+  --sunset-pink: #E991B0;
+  --cream: #FFF8E1;
+}
+
+/* ── Base ── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--dark-bg);
+  color: var(--cream);
+  overflow-x: hidden;
+}
+
+/* ── Keyframes ── */
+@keyframes gradient-flow {
+  0%, 100% { background-position: 0% 50%; }
+  50%       { background-position: 100% 50%; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 30px 8px rgba(194, 24, 91, 0.5), 0 0 60px 20px rgba(30, 136, 229, 0.2); }
+  50%       { box-shadow: 0 0 50px 16px rgba(194, 24, 91, 0.8), 0 0 100px 40px rgba(30, 136, 229, 0.35); }
+}
+
+/* ── Utility Classes ── */
+.animate-gradient-flow {
+  animation: gradient-flow 15s ease infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+/* ── Fade-in on scroll ── */
+.fade-section {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-section,
+  .animate-fade-in,
+  .animate-gradient-flow,
+  .animate-pulse-glow {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ── Prose overrides for Obituary ── */
+.obituary-prose p {
+  margin-bottom: 1.25rem;
+  line-height: 1.85;
+}
+
+.obituary-prose ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.obituary-prose li {
+  margin-bottom: 0.4rem;
+}
+
+/* ── Nav link hover underline ── */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--gold);
+  transition: width 0.25s ease;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after {
+  width: 100%;
+}
