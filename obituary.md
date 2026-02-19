@@ -1,0 +1,35 @@
+Luke Hawkins Edington
+September 14, 1995 – February 7, 2026 at 30 years of age.
+After many years of living with the agony of severe mental illness, Luke is now free and out of pain. He died peacefully and on his own terms. He died of his illness.
+
+Luke had a very close relationship with God and strove to serve the Lord faithfully.
+
+He was a talented musician who was often heard playing his saxophone in Hamilton, North Vancouver or Whistler, British Columbia. He also played guitar, piano, sang and wrote many songs.
+
+Luke enjoyed helping others and although he had little, he was relentless in sharing with those who had less. As much as the mental illness affected his mind, mood, decision making and relationships, it never changed his spirit — it never changed the core of who he was.
+
+Although his heart was in British Columbia, for the last few years Luke settled in Hamilton and made a huge effort to create friendships and community. He was active in his church and volunteered at the Cathedral Café and at De La Sol yoga studio in Hamilton. He also worked as a landscaper at Rainbows End. He was a gentle soul, who radiated love, kindness and acceptance.
+
+Luke was highly intelligent and was always studying and learning. He was very open with his struggles and sought to raise awareness and help others with mental illness.
+
+Luke is predeceased by his Uncle Walter B Howard Hawkins, his 2 grandfathers Robert Findlay Edington and Thomas Sydney Hawkins and his dear friend Karina Smeds.
+
+Luke will be missed by his parents Maggie and Bruce, his siblings Ian (Rezi), Emily (Carl Eastman), Chester (Leah Courtney) his nieces and nephews, Ada, Clara, Azier, Theodore, LaVerne, Howard and his newest niece arriving in April, many aunts, uncles, cousins and his 2 grandmothers, Marie Hawkins and Charlotte Edington.
+
+Luke's celebration of life will be held at Hope Community Church Hanover, Ontario on March 7th, 2026 at 11am with lunch and music to follow. Please bring your instruments and come ready to jam and/or enjoy the music.
+
+These are the organizations who have been there for Luke and his family over the years:
+
+- Lift Church, Hamilton
+- Crossroads Church, Hamilton
+- Lionsgate Hospital, North Vancouver, B.C.
+- St. Joseph's Hospital, West 5th Campus. Hamilton, Ontario
+- Rainbows End, Hamilton
+- Canadian Mental Health Association, Owen Sound
+- Dr. Xavier Amador and the LEAP Institute: "I'm not Sick, I don't need Help"
+- NarAnon, Ontario
+- Hanover Mennonite Church
+
+Donations to any of the above or a charity of your choice would be appreciated in lieu of flowers.
+
+Our kind, generous, intelligent, beautiful, warrior son has left us (until we meet again) and we are better people for having known and loved him.

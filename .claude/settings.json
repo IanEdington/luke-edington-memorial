@@ -1,0 +1,12 @@
+{
+  "allowedTools": [
+    "Bash",
+    "Bash(npm install:*)",
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep",
+    "Task"
+  ]
+}
