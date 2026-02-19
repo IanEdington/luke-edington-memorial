@@ -20,13 +20,13 @@ Luke's celebration of life will be held at Hope Community Church Hanover, Ontari
 
 These are the organizations who have been there for Luke and his family over the years:
 
-- Lift Church, Hamilton
+- [Lift Church, Hamilton](https://www.liftchurch.ca/give/)
 - Crossroads Church, Hamilton
-- Lionsgate Hospital, North Vancouver, B.C.
-- St. Joseph's Hospital, West 5th Campus. Hamilton, Ontario
-- Rainbows End, Hamilton
-- Canadian Mental Health Association, Owen Sound
-- Dr. Xavier Amador and the LEAP Institute: "I'm not Sick, I don't need Help"
+- [Lionsgate Hospital Foundation, North Vancouver, B.C.](https://lghfoundation.com/donate/)
+- [St. Joseph's Hospital, West 5th Campus, Hamilton, Ontario](https://stjoesfoundation.ca/donate/)
+- [Rainbows End, Hamilton](https://www.canadahelps.org/en/charities/rainbows-end-community-development-corporation/)
+- [Canadian Mental Health Association, Owen Sound](https://greybruce.cmha.ca/donate-today/)
+- [Dr. Xavier Amador and the LEAP Institute: "I'm not Sick, I don't need Help"](https://hacenterbooks.org/products/support-our-cause)
 - NarAnon, Ontario
 - Hanover Mennonite Church
 
