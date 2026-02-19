@@ -21,7 +21,22 @@ export default function Obituary() {
           In Loving Memory
         </h2>
         <article className="obituary-prose font-body text-[#2D1B4E] text-lg">
-          <ReactMarkdown>{content}</ReactMarkdown>
+          <ReactMarkdown
+            components={{
+              a: ({ href, children }) => (
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#C2185B] underline underline-offset-2 hover:text-[#AD1457] transition-colors"
+                >
+                  {children}
+                </a>
+              ),
+            }}
+          >
+            {content}
+          </ReactMarkdown>
         </article>
       </div>
     </section>
