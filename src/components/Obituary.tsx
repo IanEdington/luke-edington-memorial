@@ -5,7 +5,14 @@ export default function Obituary() {
   const [content, setContent] = useState('')
 
   useEffect(() => {
-    fetch('/obituary.md')
+    // Check for ?v=v1 or ?v=v2 URL parameter
+    const params = new URLSearchParams(window.location.search)
+    const version = params.get('v')
+
+    // Default to v2, allow v1 via ?v=v1
+    const filename = version === 'v1' ? '/obituary-v1.md' : '/obituary-v2.md'
+
+    fetch(filename)
       .then((r) => r.text())
       .then(setContent)
       .catch(() => setContent(''))
