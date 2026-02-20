@@ -23,8 +23,12 @@ export default function Hero() {
 
       {/* Animated overlay layer 1 — larger slow movement */}
       <div
-        className="absolute inset-[-10%] opacity-70 animate-tie-dye-slow"
+        className="absolute opacity-70 animate-tie-dye-slow"
         style={{
+          top: '-15%',
+          bottom: '-15%',
+          left: '-30%',
+          right: '-30%',
           background: `
             radial-gradient(circle at 30% 40%, #E991B0 0%, transparent 50%),
             radial-gradient(circle at 70% 30%, #00897B 0%, transparent 50%),
@@ -36,8 +40,12 @@ export default function Hero() {
 
       {/* Animated overlay layer 2 — smaller faster movement */}
       <div
-        className="absolute inset-[-10%] opacity-50 animate-tie-dye-fast"
+        className="absolute opacity-50 animate-tie-dye-fast"
         style={{
+          top: '-15%',
+          bottom: '-15%',
+          left: '-30%',
+          right: '-30%',
           background: `
             radial-gradient(circle at 15% 60%, #C2185B 0%, transparent 40%),
             radial-gradient(circle at 85% 50%, #FFB300 0%, transparent 40%),
