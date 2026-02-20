@@ -78,9 +78,9 @@ export default function Hero() {
             style={{ borderRadius: '50%' }}
           >
             <img
-              src="/images/IMG_5430.PNG"
+              src="/images/IMG_5430_cropped.PNG"
               alt="Luke Edington smiling"
-              className="w-full h-full object-cover object-top"
+              className="w-full h-full object-cover object-center"
             />
           </div>
         </div>
