@@ -2,16 +2,15 @@ export default function EventBanner() {
   return (
     <section
       id="event"
-      className="relative pb-32 px-4 overflow-hidden"
+      className="relative pb-40 px-4 overflow-hidden"
       style={{
         background: 'linear-gradient(to bottom, #2D1B4E 0%, #C2185B 55%, #E65100 85%, #1A0A2E 100%)',
       }}
     >
-      {/* Wave at top — cuts into cream from Obituary with deep-purple */}
       <div
         style={{
           position: 'absolute',
-          top: '-1px',
+          top: '-25px',
           left: 0,
           right: 0,
           overflow: 'hidden',
@@ -40,7 +39,7 @@ export default function EventBanner() {
       <div className="absolute -top-16 -left-16 w-64 h-64 rounded-full bg-white/5 pointer-events-none" aria-hidden="true" />
       <div className="absolute -bottom-20 -right-20 w-80 h-80 rounded-full bg-white/5 pointer-events-none" aria-hidden="true" />
 
-      <div className="relative max-w-3xl mx-auto text-center fade-section pt-20">
+      <div className="relative max-w-3xl mx-auto text-center fade-section pt-28">
         {/* Icon */}
         <div className="text-5xl mb-4" aria-hidden="true">♪</div>
 
