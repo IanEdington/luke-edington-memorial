@@ -3,28 +3,68 @@ export default function Hero() {
     <section
       id="hero"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={{
-        background: 'linear-gradient(135deg, #1A0A2E 0%, #2D1B4E 20%, #C2185B 45%, #1E88E5 70%, #00897B 85%, #1A0A2E 100%)',
-        backgroundSize: '300% 300%',
-      }}
     >
-      {/* Animated gradient overlay */}
+      {/* Base tie-dye layer — static radial gradients */}
       <div
-        className="absolute inset-0 animate-gradient-flow"
+        className="absolute inset-0"
         style={{
-          background: 'linear-gradient(135deg, #1A0A2E 0%, #2D1B4E 20%, #C2185B 45%, #1E88E5 70%, #00897B 85%, #1A0A2E 100%)',
-          backgroundSize: '300% 300%',
+          background: `
+            radial-gradient(ellipse at 20% 30%, #C2185B 0%, transparent 50%),
+            radial-gradient(ellipse at 80% 20%, #1E88E5 0%, transparent 50%),
+            radial-gradient(ellipse at 40% 70%, #00897B 0%, transparent 50%),
+            radial-gradient(ellipse at 90% 80%, #E65100 0%, transparent 50%),
+            radial-gradient(ellipse at 10% 90%, #2D1B4E 0%, transparent 50%),
+            radial-gradient(ellipse at 60% 50%, #FFB300 0%, transparent 40%),
+            #1A0A2E
+          `,
         }}
         aria-hidden="true"
       />
 
-      {/* Noise / texture overlay for depth */}
+      {/* Animated overlay layer 1 — larger slow movement */}
       <div
-        className="absolute inset-0 opacity-10 mix-blend-overlay pointer-events-none"
+        className="absolute inset-[-10%] opacity-70 animate-tie-dye-slow"
         style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")`,
+          background: `
+            radial-gradient(circle at 30% 40%, #E991B0 0%, transparent 50%),
+            radial-gradient(circle at 70% 30%, #00897B 0%, transparent 50%),
+            radial-gradient(circle at 50% 80%, #1E88E5 0%, transparent 50%)
+          `,
+        }}
+        aria-hidden="true"
+      />
+
+      {/* Animated overlay layer 2 — smaller faster movement */}
+      <div
+        className="absolute inset-[-10%] opacity-50 animate-tie-dye-fast"
+        style={{
+          background: `
+            radial-gradient(circle at 15% 60%, #C2185B 0%, transparent 40%),
+            radial-gradient(circle at 85% 50%, #FFB300 0%, transparent 40%),
+            radial-gradient(circle at 40% 20%, #E65100 0%, transparent 35%)
+          `,
+        }}
+        aria-hidden="true"
+      />
+
+      {/* Heavy noise texture overlay for psychedelic grain */}
+      <div
+        className="absolute inset-0 opacity-30 mix-blend-overlay pointer-events-none"
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")`,
           backgroundRepeat: 'repeat',
-          backgroundSize: '200px 200px',
+          backgroundSize: '150px 150px',
+        }}
+        aria-hidden="true"
+      />
+
+      {/* Additional organic texture layer — swirling patterns */}
+      <div
+        className="absolute inset-0 opacity-20 mix-blend-soft-light pointer-events-none"
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='swirl' x='0' y='0' width='100' height='100' patternUnits='userSpaceOnUse'%3E%3Cpath d='M20,50 Q30,20 50,30 T80,50 Q70,80 50,70 T20,50' fill='none' stroke='%23fff' stroke-width='0.5' opacity='0.3'/%3E%3Cpath d='M10,30 Q25,10 40,20 T70,40' fill='none' stroke='%23fff' stroke-width='0.3' opacity='0.2'/%3E%3Ccircle cx='30' cy='70' r='3' fill='%23fff' opacity='0.15'/%3E%3Ccircle cx='70' cy='20' r='2' fill='%23fff' opacity='0.1'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100' height='100' fill='url(%23swirl)'/%3E%3C/svg%3E")`,
+          backgroundRepeat: 'repeat',
+          backgroundSize: '100px 100px',
         }}
         aria-hidden="true"
       />
@@ -46,17 +86,17 @@ export default function Hero() {
         </div>
 
         {/* Name */}
-        <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-3 drop-shadow-lg">
+        <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-3" style={{ textShadow: '0 4px 12px rgba(0,0,0,0.8), 0 2px 4px rgba(0,0,0,0.6)' }}>
           Luke Hawkins Edington
         </h1>
 
         {/* Dates */}
-        <p className="font-handwritten text-2xl sm:text-3xl text-[#FFB300] mb-6 tracking-wide">
+        <p className="font-handwritten text-2xl sm:text-3xl text-[#FFB300] mb-6 tracking-wide" style={{ textShadow: '0 3px 8px rgba(0,0,0,0.8), 0 1px 3px rgba(0,0,0,0.6)' }}>
           September 14, 1995 &ndash; February 7, 2026
         </p>
 
         {/* Tagline */}
-        <p className="max-w-xl text-white/80 text-lg sm:text-xl leading-relaxed font-light">
+        <p className="max-w-xl text-white/80 text-lg sm:text-xl leading-relaxed font-light" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 1px 3px rgba(0,0,0,0.6)' }}>
           A gentle soul who radiated love, kindness, and acceptance.
           <br />
           A musician. A warrior. Free at last.
