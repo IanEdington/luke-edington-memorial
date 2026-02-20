@@ -48,13 +48,11 @@ export default function App() {
           <Hero />
         </SectionWrapper>
 
-        <SectionWrapper nextBg="#2D1B4E" flip>
-          <Obituary />
-        </SectionWrapper>
+        {/* Obituary — no wave below, EventBanner has its own wave at the top */}
+        <Obituary />
 
-        <SectionWrapper nextBg="#1A0A2E">
-          <EventBanner />
-        </SectionWrapper>
+        {/* EventBanner — wave at top cuts into cream, gradient flows into Gallery at bottom */}
+        <EventBanner />
 
         <SectionWrapper nextBg="#2D1B4E" flip>
           <Gallery />

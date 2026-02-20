@@ -70,7 +70,7 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center text-center px-6 py-24 animate-fade-in">
+      <div className="relative z-10 flex flex-col items-center text-center px-6 py-24 animate-fade-in" style={{ transform: 'translateY(-15%)' }}>
         {/* Photo */}
         <div className="relative mb-8">
           <div
