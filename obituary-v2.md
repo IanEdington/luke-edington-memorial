@@ -25,14 +25,14 @@ These are the organizations who have been there for Luke and his family over the
 * [Lift Church, Hamilton](https://www.liftchurch.ca/give/)
 * Crossroads Church, Hamilton
 * [Rainbows End, Hamilton](https://www.canadahelps.org/en/charities/rainbows-end-community-development-corporation/)
-* Greenestone Treatment Centre, Bala, Ontario
+* [Greenestone Treatment Centre, Bala, Ontario](https://greenestone.net/)
 * [Canadian Mental Health Association, Owen Sound](https://greybruce.cmha.ca/donate-today/)
 * [Dr. Xavier Amador and the LEAP Institute: "I'm not Sick, I don't need Help"](https://leapinstitute.org/)
 * [NarAnon, Ontario](https://naranonontario.com/)
 * [Hanover Mennonite Church](https://www.hanovermennonite.ca/)
 * [Lionsgate Hospital Foundation, North Vancouver, B.C.](https://lghfoundation.com/donate/)
 * [St. Joseph's Hospital, West 5th Campus, Hamilton](https://stjoesfoundation.ca/donate/)
-* Narcotics Anonymous Ontario
+* [Narcotics Anonymous Ontario](https://www.orscna.org/contribute)
 
 Donations to any of the above or a charity of your choice would be appreciated in lieu of flowers.
 
