@@ -14,11 +14,11 @@ Error generating stack: `+l.message+`
             radial-gradient(ellipse at 10% 90%, #2D1B4E 0%, transparent 50%),
             radial-gradient(ellipse at 60% 50%, #FFB300 0%, transparent 40%),
             #1A0A2E
-          `},"aria-hidden":"true"}),D.jsx("div",{className:"absolute inset-[-20%] opacity-70 animate-tie-dye-slow",style:{background:`
+          `},"aria-hidden":"true"}),D.jsx("div",{className:"absolute opacity-70 animate-tie-dye-slow",style:{top:"-15%",bottom:"-15%",left:"-30%",right:"-30%",background:`
             radial-gradient(circle at 30% 40%, #E991B0 0%, transparent 50%),
             radial-gradient(circle at 70% 30%, #00897B 0%, transparent 50%),
             radial-gradient(circle at 50% 80%, #1E88E5 0%, transparent 50%)
-          `},"aria-hidden":"true"}),D.jsx("div",{className:"absolute inset-[-20%] opacity-50 animate-tie-dye-fast",style:{background:`
+          `},"aria-hidden":"true"}),D.jsx("div",{className:"absolute opacity-50 animate-tie-dye-fast",style:{top:"-15%",bottom:"-15%",left:"-30%",right:"-30%",background:`
             radial-gradient(circle at 15% 60%, #C2185B 0%, transparent 40%),
             radial-gradient(circle at 85% 50%, #FFB300 0%, transparent 40%),
             radial-gradient(circle at 40% 20%, #E65100 0%, transparent 35%)
