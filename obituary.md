@@ -26,7 +26,7 @@ These are the organizations who have been there for Luke and his family over the
 - [St. Joseph's Hospital, West 5th Campus, Hamilton, Ontario](https://stjoesfoundation.ca/donate/)
 - [Rainbows End, Hamilton](https://www.canadahelps.org/en/charities/rainbows-end-community-development-corporation/)
 - [Canadian Mental Health Association, Owen Sound](https://greybruce.cmha.ca/donate-today/)
-- Dr. Xavier Amador and the LEAP Institute: "I'm not Sick, I don't need Help"
+- [Dr. Xavier Amador and the LEAP Institute: "I'm not Sick, I don't need Help"](https://leapinstitute.org/)
 - [NarAnon, Ontario](https://naranonontario.com/)
 - [Hanover Mennonite Church](https://www.hanovermennonite.ca/)
 
