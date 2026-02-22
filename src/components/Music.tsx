@@ -19,7 +19,7 @@ export default function Music() {
             </h3>
             <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-2xl shadow-black/40">
               <iframe
-                src="https://www.youtube.com/embed/A7BUG6LOWP8"
+                src="https://www.youtube.com/embed/Ds61mqQHdH8"
                 title="Luke Edington's Music"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
