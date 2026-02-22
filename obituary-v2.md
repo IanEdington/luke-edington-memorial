@@ -1,7 +1,3 @@
-# Luke Hawkins Edington
-
-## September 14, 1995 - February 7, 2026 at 30 years of age.
-
 After many years of living with the agony of severe mental illness, Luke is now free and out of pain. He died peacefully and on his own terms. He died of his illness.
 
 Luke had a very close relationship with God and strove to serve the Lord faithfully, spreading light and truth and fighting darkness.
