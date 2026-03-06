@@ -61,6 +61,20 @@ export default function EventBanner() {
         <p className="font-handwritten text-xl text-[#FFB300] tracking-wide">
           Please bring your instruments and come ready to jam!!
         </p>
+
+        <div className="mt-8">
+          <p className="text-white/80 text-base mb-4">
+            The service will also be available to watch online.
+          </p>
+          <a
+            href="https://youtube.com/live/d7e8uUClpTg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#FFB300] text-[#1A0A2E] font-bold text-lg px-8 py-3 rounded-full hover:bg-yellow-300 transition-colors"
+          >
+            Watch Live Stream
+          </a>
+        </div>
       </div>
     </section>
   )
