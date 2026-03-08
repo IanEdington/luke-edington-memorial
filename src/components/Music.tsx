@@ -28,7 +28,7 @@ export default function Music() {
             </div>
             <div className="flex justify-center">
               <a
-                href="https://www.youtube.com/playlist?list=PLQrgBvQAvNjgrbP0xacalwScUSFUiWi3D"
+                href="https://www.youtube.com/@lukedingtaweyeah4285"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-[#FF0000]/80 hover:bg-[#FF0000] text-white rounded-lg font-body font-semibold text-sm transition-colors"

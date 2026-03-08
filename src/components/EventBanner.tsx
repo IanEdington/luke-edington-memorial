@@ -55,24 +55,14 @@ export default function EventBanner() {
           <p>Hanover, Ontario</p>
         </div>
 
-        <p className="text-white/80 text-base max-w-lg mx-auto leading-relaxed mb-2">
-          Lunch and music to follow.
-        </p>
-        <p className="font-handwritten text-xl text-[#FFB300] tracking-wide">
-          Please bring your instruments and come ready to jam!!
-        </p>
-
         <div className="mt-8">
-          <p className="text-white/80 text-base mb-4">
-            The service will also be available to watch online.
-          </p>
           <a
-            href="https://youtube.com/live/d7e8uUClpTg"
+            href="https://www.youtube.com/playlist?list=PLQrgBvQAvNjh5EQ5fVFI2pCGlmHpQb6FU"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-[#FFB300] text-[#1A0A2E] font-bold text-lg px-8 py-3 rounded-full hover:bg-yellow-300 transition-colors"
           >
-            Watch Live Stream
+            Watch the Recording
           </a>
         </div>
       </div>
